@@ -21,7 +21,6 @@
 body {
     background-color: #fefaf0;
     margin: 0 auto;
-    border: 2px solid #88b8ce;
     display: flex;
     flex-direction: column;
 }
@@ -32,6 +31,7 @@ header {
     flex-direction: row;
     align-items: center;
     position: sticky;
+    width: 100%;
     background-color: #fefaf0;
     border-bottom: 1px solid #88b8ce;
 }
@@ -43,7 +43,6 @@ header {
     gap: 30px;
     max-width: 80px;
     max-height: 80px;
-    border: 1px solid #88b8ce;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -54,11 +53,10 @@ header {
 /* header links */
 
 .links a {
-    font-family: 'Sniglet', Arial, sans-serif;
+    font-family: 'Molle', Arial, sans-serif;
     text-decoration: none;
     font-size: 30px;
     color: #542916;
-    border: 1px solid #88b8ce;
     justify-content: flex-start;
     padding: 16px;
 }
