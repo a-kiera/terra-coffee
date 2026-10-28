@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Molle';
+    src: url('../fonts/Molle/Molle-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/Sniglet/Sniglet-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/Sniglet/Sniglet-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}

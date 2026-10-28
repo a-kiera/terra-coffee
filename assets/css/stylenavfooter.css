@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Molle';
+    src: url('../fonts/Molle/Molle-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/Sniglet/Sniglet-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/Sniglet/Sniglet-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+/* body */
+
+body {
+    background-color: #b79858;
+    margin: 0 auto;
+    border: 2px solid #88b8ce
+}
+
+/* header settings */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fefaf0;
+}
+
+/* header logo */
+
+.logo img {
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 80px;
+    max-height: 80px;
+    border: 1px solid #88b8ce;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/* header links */
+
+.links a {
+    font-family: 'Sniglet', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #542916;
+    border: 1px solid #88b8ce;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+.links a:hover {
+    color: #88b8ce
+}
+
+/* header social icons */
+
+header .icons {
+    border: 3px solid #ff3535;
+    justify-content: flex-end;
+    margin-left: 550px;
+}
+
+header .icons a {
+    color: #542916;
+    font-size: 17px;
+}
+
+
+header .icons a:hover {
+    text-decoration: none;
+    color: #88b8ce;
+}
+
+
+/* footer */
+
+footer {
+    color: #542916;
+    font-family: 'Google Sans Code', monospace, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 16px;
+    margin-top: auto; 
+}
