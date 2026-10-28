@@ -16,7 +16,11 @@
     font-weight: 800;
 }
 
-/* Slideshow container */
+* {
+    box-sizing: border-box;
+}
+
+/* SLIDESHOW */
 
 .slideshow-container {
     max-width: 1000px;
@@ -100,3 +104,75 @@
     from {opacity: .4}
     to {opacity: 1};
 }
+
+/* SECTION TITLES */
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: 'Molle', Arial, Helvetica, sans-serif;
+    color: #542916;
+    margin-top: 0;
+    border: 2px solid #88b8ce;
+}
+
+.material-icons {
+    color: #88b8ce;
+    vertical-align: middle;
+}
+
+main p {
+    color:#542916;
+    font-size: 18px;
+    font-family: 'Sniglet', Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 2px solid #88b8ce;
+}
+
+/*SECTION SPACING*/
+
+.about, .menu, .products, .contact {
+    max-width: 700px;
+    margin: 24px 0 24px 40px;   /* top, right, bottom, left */
+    padding: 24px;
+    background-color: #fff;
+    border: 2px solid #88b8ce;
+    border-radius: 12px;
+}
+
+/*FORM*/
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border: 2px solid #88b8ce;
+}
+
+.contact label {
+    font-family: 'Sniglet', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #88b8ce;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Sniglet', Arial, sans-serif;
+}
+
+.contact .submit {
+    width: auto;
+    align-self: flex-start;
+    cursor: pointer;
+    font-size: 18px;
+    color:#fefaf0;
+    background-color: #88b8ce;
+    border: none;
+    border-radius: 10px 10px;
+}
+
+
+

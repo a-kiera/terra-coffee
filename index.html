@@ -3,6 +3,7 @@
     <head>
         <META charset="UTF-8">
         <META name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="./assets/css/stylenavfooter.css" rel="stylesheet">
         <link href="./assets/css/styleindex.css" rel="stylesheet">
         <script src="./assets/scripts/slideshowScript.js" defer></script>
@@ -61,53 +62,51 @@
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-        </main>
 
         <div class="about">
-        <h2 id="about">Get to Know Us...</h2>
+        <h2 id="about"><i class="material-icons">eco</i> Get to Know Us...</h2>
             <p>
                 Terra is a local coffee shop built on a simple idea: <i>great coffee shouldn't cost the earth.</i>
                 We serve freshly roasted coffee in recycled paper cups with reusable straws, and our used
                 grounds are free to take home for your garden. Come in, stay a while, and sip a little
-                freer.
+                greener.
             </p>
         </div>
 
         <div class="menu">
-            <h2 id="menu">Our Menu...</h2>
+            <h2 id="menu"><i class="material-icons">eco</i> Our Menus...</h2>
             <p>DECIDE: PDF menu links??? Drinks, coffee, snacks</p>
         </div>
 
         <div class="products">
-            <h2 id="products">Join the Terra Mission!</h2>
+            <h2 id="products"><i class="material-icons">eco</i> Join the Terra Mission!</h2>
             <p>image gallery with products: ideas: coffee beans, coffee grounds, reusable coffee cup.</p>
         </div>
 
         <div class="contact">
-            <h2 id="contact">Have a Question?</h2>
+            <h2 id="contact"><i class="material-icons">eco</i> Have Any Questions?</h2>
 
-            <p>Send us a message on any of our socials.</p>
+            <p>Send us a message on social media.</p>
 
             <p>Or fill in the contact form below and we'll get back to you as soon as we can!</p>
 
-            <<form action="#contactme.html" method="POST">
+            <form action="#contactme.html" method="POST">
                 <label for="first-name">First Name</label>
-                <input type="text" name="name" id="first-name" required>
+                <input type="text" name="first-name" id="first-name" required>
 
                 <label for="last-name">Last Name</label>
-                <input type="text" name="name" id="last-name" required>
+                <input type="text" name="last-name" id="last-name" required>
 
                 <label for="email">Email Address</label>
-                <input type="text" name="address" id="email" required>
+                <input type="email" name="address" id="email" required>
 
                 <label for="msg">Message</label>
-                <textarea id="msg" name="message" rows="5" cols="30" required>
-                </textarea>
+                <textarea id="msg" name="message" rows="5" cols="30" required></textarea>
 
-                <br>
                 <input type="submit" value="Send" class="submit">
             </form>
         </div>
+        </main>
     </body>
     
     <footer>
