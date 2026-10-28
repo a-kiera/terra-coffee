@@ -85,8 +85,8 @@ main p {
 /*SECTION SPACING*/
 
 .about, .menu, .products, .contact {
-    max-width: 700px;
-    margin: 24px 0 24px 40px;   /* top, right, bottom, left */
+    max-width: 90%;
+    margin: 24px 0 24px 40px;   /* AI assisted */
     padding: 24px;
     background-color: #fff;
 }
@@ -97,12 +97,34 @@ main p {
     overflow: hidden;
 }
 
-.about img {
-    max-width: 50vh;
-    max-height: 50vh;
+.latteplant {
+    float: right;
+    width: 40%;
+    max-width: 400px;
+    margin: 0 0 16px 24px;
+    border-radius: 12px;
+}
+
+.about p {
+    text-wrap: inherit;
 }
 
 /*MENU*/
+
+.menu {
+    overflow: hidden;
+}
+
+.menu img {
+    float: left;
+    width: 40%;
+    max-width: 400px;
+    margin: 0 0 16px 24px;
+    border-radius: 12px;
+}
+
+
+/*MENU BUTTONS*/
 
 .menu button {
     padding: 20px 20px;
@@ -114,31 +136,39 @@ main p {
     border-radius: 12px;
 }
 
-/*FORM*/
+/*CONTACT*/
+
+.contact h2, .contact p {
+    text-align: center;
+}
+
+/*CONTACT FORM*/
 
 .contact form {
     display: flex;
     flex-direction: column;
     gap: 8px;
     padding: 20px;
+    align-items: center;
 }
 
 .contact label {
     font-family: 'Sniglet', Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #88b8ce;
+    text-align: center;
 }
 
 .contact input,
 .contact textarea {
-    width: 100%;
+    width: 50%;
     padding: 8px;
     font-family: 'Sniglet', Arial, sans-serif;
 }
 
 .contact .submit {
     width: auto;
-    align-self: flex-start;
+    align-self: center;
     cursor: pointer;
     font-size: 18px;
     color:#fefaf0;
