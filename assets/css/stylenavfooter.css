@@ -71,7 +71,6 @@ header {
 /* header social icons */
 
 header .icons {
-    border: 3px solid #ff3535;
     justify-content: flex-end;
     margin-left: 550px;
 }

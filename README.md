@@ -5,21 +5,8 @@ Terra Coffee is a website for a fictional local cafe business that needs to show
 # Description #
 
 
-Being the first independent project that I have started from scratch, I learned *(too)* many invaluable lessons. Primarily the importance of evaluating and planning how to organise your files beforehand for a more efficient coding experience. 
-
-Not only, I also learned what my weak points are and where I should dedicate extra study time (e.g. I personally struggled with setting up `display: flex` properly).
-
 # Features #
 
-* Navigation bar 
-
-* Clickable 
-
-
-* 
-
-
-* Contact form 
 
 
 # Technologies #

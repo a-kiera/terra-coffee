@@ -130,15 +130,16 @@ main p {
 
 /*MENU FOOD & DRINK BUTTONS*/
 
-.menu button {
-    padding: 20px 20px;
+.fd-btn {
+    padding: 16px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 24px;
     color:#fefaf0;
     background-color: #88b8ce;
     border: none;
     border-radius: 12px;
     float: right;
+    font-family: 'Molle', Arial, Helvetica, sans-serif;
 }
 
 /* PRODUCTS & PRODUCT GALLERY --- Credit to: W3Schools for base code */

@@ -3,18 +3,21 @@
     <head>
         <META charset="UTF-8">
         <META name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- stylesheets-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="./assets/css/stylenavfooter.css" rel="stylesheet">
         <link href="./assets/css/styleindex.css" rel="stylesheet">
-        <script src="./assets/scripts/slideshowScript.js" defer></script>
+        <!-- icons kit -->
         <script src="https://kit.fontawesome.com/e63339207f.js" crossorigin="anonymous"></script>
         <title>Terra Coffee</title>
+        <!--favicon-->
+        <link rel="icon" type="image/x-icon" href="./assets/imgs/terra-logo.png">
     </head>
 
     <body> 
         <header>
             <div class="logo">
-                <a href="#"><img src="./assets/imgs/terra-logo.png" alt="cafe logo"></a>
+                <a href="./index.html"><img src="./assets/imgs/terra-logo.png" alt="cafe logo"></a>
             </div>
 
             <div class="links">
@@ -42,38 +45,43 @@
         <div class="about">
         <img src="./assets/imgs/lattes-plants.jpg" alt="coffee beside plants" class="latteplant">
         <h2 id="about"><i class="material-icons">eco</i> Get to Know Us...</h2>
-            <p>
-                Terra is a local coffee shop rooted in a simple idea: great coffee shouldn’t cost the earth. We pour carefully sourced, freshly roasted coffee into cups made from recycled paper, serve our drinks with reusable straws, and keep single-use waste to a minimum. Nothing goes to waste here, either. Our used coffee grounds are free for anyone to take home and use as compost, so your garden can enjoy a second cup. Whether you’re stopping by for a morning espresso or settling in for the afternoon, every sip at Terra is a small step towards a greener community.
-            </p>
+            <p>Terra is a local coffee shop rooted in a simple idea: great coffee shouldn’t cost the earth.</p>
+                
+            <p>We pour carefully sourced, freshly roasted coffee into cups made from recycled paper, serve our drinks with reusable straws, and keep single-use waste to a minimum. Nothing goes to waste here, either. Our used coffee grounds are free for anyone to take home and use as compost, so your garden can enjoy a second cup.</p>
+            
+            <p>Whether you’re stopping by for a morning espresso or settling in for the afternoon, every sip at Terra is a small step towards a greener community.</p>
         </div>
         
 
         <div class="menu">
             <img src="./assets/imgs/ppl-sitting-cafe.jpg" alt="people sitting in a cafe" class="cafesit">
             <h2 id="menu"><i class="material-icons">eco</i> Our Menus...</h2>
-            <p>
-                Our menus are made with the planet in mind. Every coffee, from a classic espresso to a
-                cold brew, is made with responsibly sourced beans, and our non-coffee drinks, like the
-                chai, matcha and golden milk lattes, use ingredients from ethical suppliers. Our brunch
-                (served 8am to 1pm) is cooked from locally sourced produce, with seasonal dishes like
-                shakshouka and acai bowls alongside hearty favourites such as the Full English. We buy
-                our pastries from a local bakery, and our Cake of the Day is baked in small batches to
-                cut down on food waste. Whatever you order, it's served with minimal packaging and a lot
-                of care.
-            </p>
-            <a href="./assets/docs/drinks-menu.pdf" target="_blank" rel="noopener"><button type="button" class="drinkbtn">Drinks</button></a>
-            <a href="./assets/docs/food-menu.pdf" target="_blank" rel="noopener"><button type="button" class="foodbtn">Food</button></a>
+            <p>Our menus are made with the planet in mind.</p>
+            
+            <p>Every coffee, from a classic espresso to a
+            cold brew, is made with responsibly sourced beans, and our non-coffee drinks like the
+            chai, matcha and golden milk lattes, use ingredients from ethical suppliers.</p>
+            
+            <p>Our brunch (served 8am to 1pm) is cooked from locally sourced produce, with seasonal dishes like
+            shakshouka and acai bowls alongside hearty favourites such as the Full English. We buy
+            our pastries from a local bakery, and our Cake of the Day is baked in small batches to
+            cut down on food waste.</p>
+
+            <p>Whatever you order, it's served with minimal packaging and a lot
+            of care.</p>
+            <a href="./assets/docs/drinks-menu.pdf" target="_blank" rel="noopener"><button type="button" class="fd-btn">Drinks</button></a>
+            <a href="./assets/docs/food-menu.pdf" target="_blank" rel="noopener"><button type="button" class="fd-btn">Food</button></a>
             <p><i>Don't forget to let us know of any dietary requirements when ordering.</i></p>
         </div>
 
         <div class="products">
 
             <h2 id="products"><i class="material-icons">eco</i> Contribute to the Terra Mission!</h2>
-            <p>If you would like to support our mission towards a more sustainable world, consider buying our products which are available instore:</p>
+            <p>If you would like to support our mission towards a more sustainable world please consider buying our products, available in-store:</p>
         
             <div class="responsive"> <!-- Credit to: W3Schools tutorial on responsive galleries -->
                 <div class="gallery">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="./products.html">
                         <img src="./assets/imgs/terra-coffee-mug.png" alt="Terra coffee mug">
                     </a>
                     <div class="desc">A ceramic Terra mug, made with love by local artisans.</div>
@@ -82,7 +90,7 @@
 
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="./products.html">
                         <img src="./assets/imgs/terra-coffee-tee.png" alt="Terra white t-shirt">
                     </a>
                     <div class="desc">Boost your style with a Terra Tee! 100% cotton.</div>
@@ -91,14 +99,23 @@
 
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="./products.html">
                         <img src="./assets/imgs/terra-coffee-beans.png" alt="Homemade coffee beans">
                     </a>
                     <div class="desc">Our custom arabica blend with caramel and vanilla notes.</div>
                 </div>
             </div>
 
-            <button type="button">See more</button>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./products.html">
+                        <img src="./assets/imgs/terra-coaster.png" alt="cup coaster">
+                    </a>
+                    <div class="desc">A unique Terra coaster made from high quality birch wood.</div>
+                </div>
+            </div>
+
+            <button type="button" id="seemore-btn"><a href="./products.html" target="_blank">See more</a></button>
 
             <div class="clearfix"></div>
         
@@ -131,6 +148,6 @@
     </body>
     
     <footer>
-        <p>Designed by Amy Kiera Macleod &copy; 2026. All rights reserved.</p>
+        <p>Designed by a-kiera &copy; 2026. All rights reserved.</p>
     </footer>
 </html>
