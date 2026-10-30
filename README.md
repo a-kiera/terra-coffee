@@ -9,7 +9,41 @@ Visitors to the site can peruse all the useful information they need to know abo
 # Features #
 It exists on two pages (the main page as well as a product page with prices and "add to cart" buttons). 
 
-![welcome-terra]()
+*Here is the navbar and landing img on the main page
+
+![welcome-terra](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/welcome-terra.png)
+
+*There were problems with the appearance of both when Chrome Devtools were used to check responsiveness to different screen sizes.
+
+![navbar-bad-big](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/navbar-bad-big.png)
+![landing-bad-big](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/landing-bad-big.png)
+
+*However these errors were resolved by adding media queries to css that adjusted font size and width.
+
+![pixel-10-good](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/pixel-10-good.png)
+
+*This method also helped to create a fully responsive products section
+
+![shop-full](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/shop-full.png)
+![shop-responsive-good](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/shop-responsive-good.png)
+
+*On smaller screen sizes I noticed a break in the Menu title of the main page
+
+![gap-menu](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/gap-menu.png)
+
+*And found that this was resolved by decreasing the font size, however upon reflection I should have organised this div differently to keep a consistent design with the rest of the page.
+
+![gap-menu-good]()
+
+*With this project there are certainly improvements that can be made, unfortunately for lack of time they will have to be reserved for a later date. For example, even though the navbar was made responsive the text size isn't very clear to read.
+
+![samsung-55-text-small](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/samsung-55-text-small.png)
+
+**Note*: this is one of the smallest possible screen sizes 
+
+*Similarly, I would like to go back and improve on the uniformity of the product card gallery on the main page, as according to different screen sizes the boxes change size
+
+![wonky-product-index-row](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/wonky-product-index-row.png)
 
 # Future Improvements #
 - [ ] More interactivity: "scroll to top" button and "add to cart" functionality
@@ -42,6 +76,7 @@ Thank you for visiting Terra Coffee!
 # Credits # 
 External tutorials/credits used for project:
 W3Schools Image Gallery - [https://www.w3schools.com/howto/howto_css_image_gallery.asp]
+
 W3Schools Product Card - [https://www.w3schools.com/howto/howto_css_product_card.asp]
 
 # License #
