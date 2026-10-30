@@ -1,16 +1,20 @@
 # Project Title: Terra Coffee Website #
 # Welcome #
-Terra Coffee is a website for a fictional local cafe business that needs to showcase their selling points and products - my second project due for the Learning People UK developer course.
+[Terra Coffee](https://a-kiera.github.io/terra-coffee/) is a website for a fictional local cafe business that needs to showcase their unique selling points, menus and products. Created to submit as a second practical project for Learning People UK.
 
 # Description #
+Terra Coffee is an environmentally-friendly local cafe business that provides an array of drinks and snacks and encourages its customers to enjoy a beverage that is good for both the soul and the Earth.
 
+It exists on two pages (the main page as well as a product page with prices and "add to cart" buttons). Visitors to the site can peruse all the useful information they need to know about the business on the landing page and decide whether they would like to frequent the cafe or not.
 
 # Features #
 
 
 # Future Improvements #
-
-
+- [ ] More interactivity: "scroll to top" button and "add to cart" functionality
+- [ ] Expand to multiple pages
+- [ ] Perfect media queries - e.g. adjust small link text on navbar when viewed on smaller screens, fix product gallery cards to not vary in size
+- [ ] Experiment with design - use this as a base to explore other interesting web design features, e.g. parallax scrolling and animations
 
 # Technologies #
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used to build the structure of the site.
@@ -28,16 +32,16 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Main Branch, then click "Save".
 * The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here]
+The live link can be found [here](https://a-kiera.github.io/terra-coffee/)
 
 # Contact #
 Let me know if you have any feedback or suggestions!
-Thank you for visiting [Terra Coffee]!
+Thank you for visiting Terra Coffee!
 
 # Credits # 
-External tutorials used for project:
-W3C Flexbox - [https://www.w3schools.com/css/css3_flexbox_responsive.asp]
-
+External tutorials/credits used for project:
+W3Schools Image Gallery - [https://www.w3schools.com/howto/howto_css_image_gallery.asp]
+W3Schools Product Card - [https://www.w3schools.com/howto/howto_css_product_card.asp]
 
 # License #
 MIT License
