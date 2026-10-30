@@ -75,6 +75,7 @@ Thank you for visiting Terra Coffee!
 
 # Credits # 
 External tutorials/credits used for project:
+
 W3Schools Image Gallery - [https://www.w3schools.com/howto/howto_css_image_gallery.asp]
 
 W3Schools Product Card - [https://www.w3schools.com/howto/howto_css_product_card.asp]
