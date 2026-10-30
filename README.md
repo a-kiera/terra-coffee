@@ -4,11 +4,12 @@
 
 # Description #
 Terra Coffee is an environmentally-friendly local cafe business that provides an array of drinks and snacks and encourages its customers to enjoy a beverage that is good for both the soul and the Earth.
-
-It exists on two pages (the main page as well as a product page with prices and "add to cart" buttons). Visitors to the site can peruse all the useful information they need to know about the business on the landing page and decide whether they would like to frequent the cafe or not.
+Visitors to the site can peruse all the useful information they need to know about the business on the landing page and decide whether they would like to frequent the cafe or not.
 
 # Features #
+It exists on two pages (the main page as well as a product page with prices and "add to cart" buttons). 
 
+![welcome-terra]()
 
 # Future Improvements #
 - [ ] More interactivity: "scroll to top" button and "add to cart" functionality
