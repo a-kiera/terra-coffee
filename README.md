@@ -33,13 +33,11 @@ It exists on two pages (the main page as well as a product page with prices and 
 
 *And found that this was resolved by decreasing the font size, however upon reflection I should have organised this div differently to keep a consistent design with the rest of the page.
 
-![gap-menu-good]()
+![gap-menu-good](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/gap-menu-good.png)
 
-*With this project there are certainly improvements that can be made, unfortunately for lack of time they will have to be reserved for a later date. For example, even though the navbar was made responsive the text size isn't very clear to read.
+*With this project there are certainly improvements that can be made, unfortunately for lack of time they will have to be reserved for a later date. For example, even though the navbar was made responsive the text size isn't very clear to read - meaning I must go back and find another solution.
 
 ![samsung-55-text-small](https://github.com/a-kiera/terra-coffee/blob/main/assets/documentation/samsung-55-text-small.png)
-
-**Note*: this is one of the smallest possible screen sizes 
 
 *Similarly, I would like to go back and improve on the uniformity of the product card gallery on the main page, as according to different screen sizes the boxes change size
 
@@ -48,7 +46,7 @@ It exists on two pages (the main page as well as a product page with prices and 
 # Future Improvements #
 - [ ] More interactivity: "scroll to top" button and "add to cart" functionality
 - [ ] Expand to multiple pages
-- [ ] Perfect media queries - e.g. adjust small link text on navbar when viewed on smaller screens, fix product gallery cards to not vary in size
+- [ ] Perfect media queries - e.g. adjust small link text on navbar when viewed on smaller screens, fix product gallery cards to not vary in size, resolve issues with font size
 - [ ] Experiment with design - use this as a base to explore other interesting web design features, e.g. parallax scrolling and animations
 
 # Technologies #
@@ -58,6 +56,8 @@ It exists on two pages (the main page as well as a product page with prices and 
 * [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 * [Git](https://git-scm.com/) was used for the version control of the website.
 * [GitHub](https://github.com/) was used to host the code of the website.
+
+All code was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS and [W3C](https://validator.w3.org/) for HTML.
 
 # Deployment #
 ## Deployment to GitHub Pages ##
