@@ -20,20 +20,25 @@ main p {
     text-wrap: pretty;
 }
 
-/*SECTION SPACING*/
+/* SECTION SPACING */
 
 .about, .menu, .products-container, .contact {
     max-width: 100%;
-    margin: 24px 20px 24px 20px;   /* AI assisted */
+    margin: 24px 20px 24px 20px;   /* AI assisted for suitable margins */
     padding: 25px;
     background-color: #fff;
     border-radius: 12px;
 }
 
-/*ABOUT*/
+/* ABOUT */
 
 .about {
     overflow: hidden;
+}
+
+.about p, .menu p {
+    padding: 12px;
+    text-wrap: balance;
 }
 
 .latteplant, .menu img {
@@ -47,24 +52,25 @@ main p {
     float: right;
 }
 
-.menu img {
-    float: left;
-}
-
-/*MENU*/
+/* MENU */
 
 .menu {
     overflow: hidden;
 }
 
 .menu p {
-    margin-left: 20px;
-    text-wrap: pretty;
-    border: 3px solid red;
+    text-align: right;
 }
 
+.menu h2 {
+    text-align: right;
+}
 
-/*MENU FOOD & DRINK BUTTONS*/
+.menu img {
+    float: left;
+}
+
+/* FOOD & DRINK BUTTONS */
 
 .fd-btn a {
     font-family: 'Molle', Arial, Helvetica, sans-serif;
@@ -76,12 +82,15 @@ main p {
     border: none;
     border-radius: 12px;
     text-decoration: none;
+    float: right;
+    margin-right: 16px;
 }
 
 /* PRODUCTS */ 
 
 .products-container {
     text-align: center;
+    overflow: hidden;
 }
 
 /* SEE MORE BUTTON */
@@ -165,6 +174,7 @@ div.desc {
 .contact form {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     gap: 8px;
     padding: 20px;
     align-items: center;
