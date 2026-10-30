@@ -93,3 +93,9 @@ body {
     max-width: 100%;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .products-container {
+        max-width: 80%;
+    }
+}
