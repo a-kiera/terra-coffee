@@ -20,6 +20,10 @@
 
 /* body */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -34,6 +38,8 @@ header {
     flex-direction: row;
     align-items: center;
     position: sticky;
+    top: 0;
+    z-index: 10;
     width: 100%;
     background-color: #fefaf0;
     border-bottom: 1px solid #88b8ce;
@@ -42,8 +48,6 @@ header {
 /* header logo */
 
 .logo img {
-    justify-content: flex-start;
-    gap: 30px;
     max-width: 80px;
     max-height: 80px;
     border-radius: 50px 50px 50px 50px;
@@ -60,7 +64,6 @@ header {
     text-decoration: none;
     font-size: 30px;
     color: #542916;
-    justify-content: flex-start;
     padding: 16px;
 }
 
@@ -71,8 +74,7 @@ header {
 /* header social icons */
 
 header .icons {
-    justify-content: flex-end;
-    margin-left: 550px;
+    margin-left: auto;
 }
 
 header .icons a {
@@ -84,6 +86,51 @@ header .icons a {
 header .icons a:hover {
     text-decoration: none;
     color: #88b8ce;
+}
+
+/* LANDING IMG AND TITLE --- credits: this section was assisted by Claude */
+
+.landing {
+    position: relative;
+    height: 70vh;           
+    overflow: hidden;
+}
+
+.landing img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;          /* crops the photo to fit without stretching it */
+    filter: brightness(0.65);   /* dims the photo so the text stands out */
+}
+
+.landing h1, .landing h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #fefaf0;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.landing .welcome {
+    top: 30%;
+    font-family: 'Sniglet', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.landing .terra {
+    top: 40%;
+    font-family: 'Molle', cursive;
+    font-size: 5rem;
+}
+
+.landing .tagline {
+    top: 70%;
+    font-family: 'Sniglet', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    border: 3px solid red;
 }
 
 

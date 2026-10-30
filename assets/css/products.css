@@ -1,62 +1,95 @@
-@font-face {
-    font-family: 'Molle';
-    src: url('../fonts/Molle/Molle-Italic.ttf') format('truetype');
-    font-style: italic;
-}
+/* BODY */
 
-@font-face {
-    font-family: 'Sniglet';
-    src: url('../fonts/Sniglet/Sniglet-Regular.ttf') format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Sniglet';
-    src: url('../fonts/Sniglet/Sniglet-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-}
-
-/* LANDING IMG AND TITLE --- credits: this section was assisted by Claude */
-
-.landing {
-    position: relative;
-    height: 70vh;           
-    overflow: hidden;
-}
-
-.landing img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;          /* crops the photo to fit without stretching it */
-    filter: brightness(0.65);   /* dims the photo so the text stands out */
-}
-
-.landing h1, .landing h2 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    color: #fefaf0;
-    text-align: center;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-}
-
-.landing .welcome {
-    top: 30%;
-    font-family: 'Sniglet', Arial, sans-serif;
-    font-size: 2rem;
-}
-
-.landing .terra {
-    top: 40%;
-    font-family: 'Molle', cursive;
-    font-size: 5rem;
-}
-
-.landing .tagline {
-    top: 70%;
+body {
     font-family: 'Sniglet', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
 }
 
+/* Products container */
+
+.products-container {
+    max-width: 90%;
+    margin: 24px 0 24px 40px;
+    padding: 24px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.shop {
+    font-family: 'Molle', Arial, Helvetica, sans-serif;
+    color: #542916;
+    font-size: 45px;
+}
+
+.products-container p {
+    color: #542916;
+}
+
+/* Product cards --- tutorial credit: https://www.w3schools.com/howto/howto_css_product_card.asp */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 4px 0 #88b8ce;
+    text-align: center;
+    font-family: 'Sniglet', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 22%;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-family: 'Molle', Arial, Helvetica, sans-serif;
+    color: #542916;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #542916;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card p:last-child {
+    margin-top: auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 829px) {
+    .card {
+    max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .card {
+    max-width: 100%;
+    }
+}

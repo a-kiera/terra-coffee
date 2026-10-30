@@ -8,6 +8,9 @@ Terra Coffee is a website for a fictional local cafe business that needs to show
 # Features #
 
 
+# Future Improvements #
+
+
 
 # Technologies #
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used to build the structure of the site.
@@ -28,9 +31,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The live link can be found [here]
 
 # Contact #
-Kie
-[amykiera.m@gmail.com]
-
 Let me know if you have any feedback or suggestions!
 Thank you for visiting [Terra Coffee]!
 
